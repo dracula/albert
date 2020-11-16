@@ -1,0 +1,85 @@
+/*
+ * author: Chris van Dal <https://github.com/cvandal>
+*/
+
+* {
+  border: none;
+  color: #f8f8f2;
+  background-color: #282a36;
+}
+
+#frame {
+  padding: 3px;
+  border-radius: 12px;
+  background-color: #282a36;
+  border: 3px solid #ffb86c;
+
+  min-width: 640px;
+  max-width: 640px;
+}
+
+#inputLine {
+  padding: 2px;
+  border-radius: 2px;
+  font-size: 18px;
+  selection-color: #44475a;
+  selection-background-color: #282a36;
+  background-color: #282a36;
+}
+
+#settingsButton {
+  color: #f8f8f2;
+  background-color: #282a36;
+  padding: 8px 8px 8px 8px;
+  margin: 5px 10px 0 0;
+
+  min-width: 13px;
+  min-height: 13px;
+  max-width: 13px;
+  max-height: 13px;
+}
+
+QListView {
+  background: transparent;
+  selection-color: #f8f8f2;
+}
+
+QListView::item:selected {
+  background: qlineargradient(x1:0, x2:1, stop:0.0 #44475a, stop:0.5 #44475a, stop:1.0 #44475a);
+}
+
+QListView QScrollBar:vertical {
+  width: 5px;
+  background: transparent;
+}
+
+QListView QScrollBar::handle:vertical {
+  background: #282a36;
+  min-height: 24px;
+}
+
+QListView QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+QListView QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical,
+QListView QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+  border: 0px;
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}
+
+QListView#actionList {
+  font-size: 18px;
+}
+
+QListView#actionList::item{
+  height: 18px;
+}
+
+QListView#resultsList {
+  icon-size: 36px;
+  font-size: 18px;
+}
+
+QListView#resultsList::item{
+  height: 48px;
+}
