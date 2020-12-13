@@ -1,15 +1,12 @@
-# Dracula for [Albert](https://github.com/albertlauncher/albert)
+# Dracula for [Albert](https://albertlauncher.github.io)
 
-> A dark theme for [Albert](https://github.com/albertlauncher/albert).
+> A dark theme for [Albert](https://albertlauncher.github.io).
 
 ![Screenshot](./screenshot.gif)
 
 ## Install
 
-1. `git clone git@github.com:cvandal/albert-dracula-theme.git && cd albert-dracula-theme`
-2. `sudo cp DraculaPurple.qss /usr/share/albert/org.albert.frontend.widgetboxmodel/themes`
-
-Replace `DraculaPurple.qss` with the name of the colour theme you would like to install.
+All instructions can be found at [draculatheme.com/albert](https://draculatheme.com/albert).
 
 ## Team
 
